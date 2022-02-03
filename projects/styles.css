@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Montserrat:wght@900&family=Righteous&family=Spline+Sans:wght@300&display=swap');
+body{
+    font-family: "Spline Sans";
+    background-color: rgb(242, 232, 232)
+}
+
+.navlistitem{
+    list-style: none;
+    margin: 2rem;
+}
+
+.navlistitem a{
+    text-decoration: none;
+    text-emphasis: none;
+    color: black;
+}
+
+.head{
+    text-align: center;
+    size: 30px;
+}
+
+.flexcontainer{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    background-color: rgb(31, 134, 202);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 35%;
+}
+
+.container :last-child{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inp{
+    display: flex;
+    width: 100px;
+    size: 100px;
+    justify-content: left;
+    border-radius: 15px;
+    margin: 2rem;
+}
+
+.mf{
+    display: flex;
+    justify-content: left;
+    margin: 2rem;
+}
+
+.enter{
+    border: none;
+    align-items: center;
+    background-color: white;
+    border-color: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    flex-basis: 100%;
+    margin: 10px;
+}
+.enter:hover{
+    background-color: rgb(215, 215, 240);
+}
+
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.calories{
+    align-items: center;
+    background-color: rgb(31, 134, 202);
+    border-radius: 10px;
+    font-size: 15px;
+    flex-basis: 100%;
+    margin: 10px;
+    width: 400px;
+}
+#total-calories{
+    width: 400px;
+    border-radius: 10px;
+}
+#reduced-calories{
+    width: 400px;
+    border-radius: 10px;
+}

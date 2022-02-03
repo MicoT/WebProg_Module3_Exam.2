@@ -7,138 +7,138 @@ function aetherC(){
     document.getElementById('image-charc').style.border = "8px solid white"
     document.getElementById("image-charc").width = "200";
     document.getElementById("image-charc").height = "200";
-    charc.setAttribute('src', '/assets/Aether.png');
+    charc.setAttribute('src', 'assets/Aether.png');
     document.body.appendChild(charc);
 }
 function beidouC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Beidou.png');
+    charc.setAttribute('src', 'assets/Beidou.png');
     document.body.appendChild(charc);
 }
 function albedoC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Albedo.png');
+    charc.setAttribute('src', 'assets/Albedo.png');
     document.body.appendChild(charc);
 }
 function noelleC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Noelle.png');
+    charc.setAttribute('src', 'assets/Noelle.png');
     document.body.appendChild(charc);
 }
 function hutaoC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Hutao.png');
+    charc.setAttribute('src', 'assets/Hutao.png');
     document.body.appendChild(charc);
 }
 function jeanC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Jean.png');
+    charc.setAttribute('src', 'assets/Jean.png');
     document.body.appendChild(charc);
 }
 function raidenC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Raiden.png');
+    charc.setAttribute('src', 'assets/Raiden.png');
     document.body.appendChild(charc);
 }
 function kleeC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Klee.png');
+    charc.setAttribute('src', 'assets/Klee.png');
     document.body.appendChild(charc);
 }
 function razorC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Razor.png');
+    charc.setAttribute('src', 'assets/Razor.png');
     document.body.appendChild(charc);
 }
 function eulaC(){
     var charc = document.getElementById("image-charc");
     document.getElementById('image-charc').style.backgroundColor = "blanchedalmond"
-    charc.setAttribute('src', '/assets/Eula.png');
+    charc.setAttribute('src', 'assets/Eula.png');
     document.body.appendChild(charc);
 }
 function anemo(){
     var ele = document.getElementById("image-ele");
     document.getElementById("image-ele").width = "100";
     document.getElementById("image-ele").height = "100";
-    ele.setAttribute('src', '/assets/anemo.png');
+    ele.setAttribute('src', 'assets/anemo.png');
     document.body.appendChild(ele);
 }
 function electro(){
     var ele = document.getElementById("image-ele");
-    ele.setAttribute('src', '/assets/electro.png');
+    ele.setAttribute('src', 'assets/electro.png');
     document.body.appendChild(ele);
 }
 function cryo(){
     var ele = document.getElementById("image-ele");
-    ele.setAttribute('src', '/assets/cryo.png');
+    ele.setAttribute('src', 'assets/cryo.png');
     document.body.appendChild(ele);
 }
 function pyro(){
     var ele = document.getElementById("image-ele");
-    ele.setAttribute('src', '/assets/pyro.png');
+    ele.setAttribute('src', 'assets/pyro.png');
     document.body.appendChild(ele);
 }
 function geo(){
     var ele = document.getElementById("image-ele");
-    ele.setAttribute('src', '/assets/geo.png');
+    ele.setAttribute('src', 'assets/geo.png');
     document.body.appendChild(ele);
 }
 function travelerFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/travelerfull.png');
+    full.setAttribute('src', 'assets/travelerfull.png');
     document.body.appendChild(full);
 }
 function beidouFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Beidoufull.png');
+    full.setAttribute('src', 'assets/Beidoufull.png');
     document.body.appendChild(full);
 }
 function albedoFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Albedofull.png');
+    full.setAttribute('src', 'assets/Albedofull.png');
     document.body.appendChild(full);
 }
 function noelleFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Noellefull.png');
+    full.setAttribute('src', 'assets/Noellefull.png');
     document.body.appendChild(full);
 }
 function hutaoFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Hutaofull.png');
+    full.setAttribute('src', 'assets/Hutaofull.png');
     document.body.appendChild(full);
 }
 function jeanFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Jeanfull.png');
+    full.setAttribute('src', 'assets/Jeanfull.png');
     document.body.appendChild(full);
 }
 function raidenFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Raidenfull.png');
+    full.setAttribute('src', 'assets/Raidenfull.png');
     document.body.appendChild(full);
 }
 function kleeFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Kleefull.png');
+    full.setAttribute('src', 'assets/Kleefull.png');
     document.body.appendChild(full);
 }
 function razorFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Razorfull.png');
+    full.setAttribute('src', 'assets/Razorfull.png');
     document.body.appendChild(full);
 }
 function eulaFull(){
     var full = document.getElementById("image-fullb");
-    full.setAttribute('src', '/assets/Eulafull.png');
+    full.setAttribute('src', 'assets/Eulafull.png');
     document.body.appendChild(full);
 }
 function getNewName(){

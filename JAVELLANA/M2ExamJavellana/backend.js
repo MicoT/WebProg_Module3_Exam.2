@@ -3,7 +3,7 @@ var cross=document.getElementById('cross');
 var pImg = document.getElementById('pImg');
 
 var petList=[];
-var petImg= ["/assets/bailey.png","/assets/leo.png","/assets/ming.png","/assets/oscar.png","/assets/rex.png","/assets/ruby.png","/assets/spot.png","/assets/whiskers.png", "/assets/willow.png","/assets/zoe.png"];
+var petImg= ["assets/bailey.png","assets/leo.png","assets/ming.png","assets/oscar.png","assets/rex.png","assets/ruby.png","assets/spot.png","assets/whiskers.png", "assets/willow.png","assets/zoe.png"];
 
 
 var count=0;

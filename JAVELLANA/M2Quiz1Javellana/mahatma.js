@@ -1,5 +1,5 @@
 function Home(){
-    location.replace("M2Quiz1javellana.html")
+    location.replace("main.html")
 }
 
 let bttnquote = document.querySelector('button');

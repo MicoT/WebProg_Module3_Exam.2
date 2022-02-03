@@ -106,10 +106,12 @@ button{
 
 }
 .choice-deny:hover{
-    background-color: rgb(33, 218, 33);
+    background-color: rgb(236, 33, 33);
+    cursor: pointer;
 }
 .choice-accept:hover{
-    background-color: rgb(236, 33, 33);
+    background-color: rgb(33, 218, 33);
+    cursor: pointer;
 }
 
 .listimg{

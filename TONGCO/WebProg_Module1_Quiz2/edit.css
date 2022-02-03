@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 170%;
+    background-image: linear-gradient(to bottom right, #000000, #210D26, #421A4C, #632673, #84319B, #632673, #421A4C, #000000);
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 20px;
+}
+
+.banner-1{
+    width: 80%;
+    height: 50%;
+    top: 10%;
+    left: 150px;
+    position: absolute;
+    background: #404040;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.banner-2{
+    width: 80%;
+    height: 45%;
+    top: 70%;
+    left: 150px;
+    position: absolute;
+    background: #404040;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.banner-3{
+    width: 80%;
+    height: 38%;
+    top: 125%;  
+    left: 150px;
+    position: absolute;
+    background: #404040;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.about-text{
+    width: 50%;
+    float: left;
+}
+.about-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.about-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #fff;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.goals-text{
+    width: 50%;
+    float: right;
+}
+.goals-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.goals-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #fff;
+    text-align: left;
+}
+
+ul.a {
+    font-size: 43px;
+    list-style-type: circle;
+}
+  
+
+.future-text{
+    width: 50%;
+    float: left;
+    
+}
+
+.future-text h1{
+    font-size: 43px;
+    width: 640px;
+    margin-left: 40px;
+    text-align: center;
+}
+
+.future-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.photo-1{
+    width: 50%;
+    float: right;
+}
+
+.photo-1 img{
+    width: 45%;
+    margin-top:  60px;
+    padding-left: 150px;
+}
+
+.photo-2{
+    width: 50%;
+    float: right;
+}
+
+.photo-2 img{
+    width: 38%;
+    margin-top:  20px;
+    padding-left: 150px;
+}
+
+.photo-3{
+    width: 50%;
+    float: right;
+}
+
+.photo-3 img{
+    width: 60%;
+    margin-top:  20px;
+    padding-left: 150px;
+}

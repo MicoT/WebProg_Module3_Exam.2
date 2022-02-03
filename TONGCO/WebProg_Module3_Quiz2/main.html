@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="design.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>WEB PROG</title>
+</head>
+<body>
+    <header><img src="assets/titles.png" alt="" style="height: 100px;"></header>
+    <div class="container">
+        <img class="character" id="image-charc"/>
+        <img class="element" id="image-ele">
+        <img class="fullb" id="image-fullb">
+        <div class="text" id="text">       
+            <h3 class="center" id="hero" ></h3>
+            <h3 class="center" id="birthdate" ></h3>
+            <h3 class="center" id="vision" ></h3>
+            <h3 class="center" id="weapon" ></h3>
+            <h3 class="center" id="nation" ></h3>
+            <h3 class="center" id="affiliation" ></h3>
+            <h3 class="center" id="constellation" ></h3>
+        </div>
+        <p id="desc" class="desc"></p>
+        <h1 class="start-text" id="start-text">Pick a character from 1 to 10!</h1>
+        <div class="user-int">
+        <input type="number" id="number"  value="1" min="1" max="10">
+        <button onclick="getNewName()" id="select" >PICK A CHARACTER!</button>
+        </div>
+    </div>
+    <div class="footer">DEVELOPED BY: JOHN MICO P. TONGCO & JACE JAVELLANA</div>
+    <script src="script.js"></script>
+</body>
+</html>

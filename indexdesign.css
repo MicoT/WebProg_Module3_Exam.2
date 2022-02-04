@@ -1,7 +1,7 @@
 html{
     background-color: #292954;
     overflow: hidden;
-    background-image: url("/assets/background-pic.png");
+    background-image: url("assets/background-pic.png");
 }
 *{
     font-family: 'Heebo', sans-serif;

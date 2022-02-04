@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,600&family=Cairo:wght@900&family=Montserrat:wght@900&family=Righteous&family=Spline+Sans:wght@300&display=swap" rel="stylesheet">     
+        <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>EXAM_1</title>
+
+    </head>
+    <body>
+        <div class="title_header">
+            <h1>USER SEARCHER</h1>
+        </div>
+        <h2>Instructions: You can use the search bar to search for any user! You can use any data the user has in the search bar <br>
+            and the search bar will finding the one with matching data.</h2>
+
+        <div class="search-wrapper">
+            <label for="search">Search Users</label>
+            <input type="search" id="search" search>
+        </div>
+        <div class="user-cards" user-cards-container></div>
+        <template user-template>
+            <div class="card">
+                <img class="profpic" src="assets/download.png" alt="">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+            <div class="phone" data-phone></div>
+            <div class="website" data-website></div>
+        </template>
+    </body>
+</html>
